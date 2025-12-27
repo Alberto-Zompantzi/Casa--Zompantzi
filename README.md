@@ -40,7 +40,11 @@ Este proyecto fue desarrollado utilizando tecnologías web modernas y ligeras:
 - **CSS3**  
   Responsive Design, Media Queries
 
-- **JavaScript (Vanilla)**  
+- **JavaScript (Vanilla)**
+
+- **GIT**  Manejo de versiones
+
+
   Header & Footers insertados de forma dinamica con JS al igual que el catálogo de productos.
 
 - **Netlify**  
