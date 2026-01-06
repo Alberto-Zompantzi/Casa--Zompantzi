@@ -1,13 +1,13 @@
-# 🏡 Casa Zompantzi
+#  Casa Zompantzi
 
 **Casa Zompantzi** es un sitio web informativo para un negocio con más de **50 años de tradición**, enfocado en la venta de plásticos y productos desechables, destacando por sus **precios bajos** y **excelente atención**.
 
-🌐 Sitio web:  
+ Sitio web:  
 https://casazompantzi.netlify.app/
 
 ---
 
-## 📖 Descripción
+##  Descripción
 
 Casa Zompantzi es un negocio familiar con amplia trayectoria, ubicado en el **Mercado Victoria Centro, Teziutlán, Puebla**.  
 El sitio web tiene como objetivo brindar información clara y accesible sobre la empresa, su historia y la forma de contacto con los clientes.
@@ -20,17 +20,17 @@ El proyecto está enfocado en:
 
 ---
 
-## ✨ Características
+##  Características
 
-- 📜 Información sobre la empresa
-- 🏪 Identidad de negocio tradicional
-- 🌐 Sitio web rápido y accesible
-- 📱 Diseño adaptable a dispositivos móviles
-- 🔗 Enlaces de contacto y redes sociales
+-  Información sobre la empresa
+-  Identidad de negocio tradicional
+-  Sitio web rápido y accesible
+-  Diseño adaptable a dispositivos móviles
+-  Enlaces de contacto y redes sociales
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 Este proyecto fue desarrollado utilizando tecnologías web modernas y ligeras:
 
