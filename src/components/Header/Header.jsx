@@ -8,7 +8,7 @@ export default function Header() {
         <div className="navbar__logo">
           <Link to="/">
             <img
-              src="/src/assets/images/logo.png"
+              src="/logo.png"
               alt="Logo de Casa Zompantzi"
               className="logo"
             />

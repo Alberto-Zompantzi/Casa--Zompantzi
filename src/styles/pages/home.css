@@ -19,7 +19,7 @@
 .main-hero {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("src/assets/images/ladrillos-hero.avif") center/cover no-repeat;
+    url("/ladrillos-hero.avif") center/cover no-repeat;
 }
 
 .hero-main-content {

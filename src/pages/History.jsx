@@ -17,7 +17,7 @@ export default function History() {
           <div className="timeline-item left">
             <div className="timeline-content">
               <img
-                src="src/assets/images/Experiencia 3.jpg"
+                src="/Experiencia 3.jpg"
                 alt="Más de 50 años de experiencia"
               />
               <div className="text">
@@ -33,7 +33,7 @@ export default function History() {
           <div className="timeline-item right">
             <div className="timeline-content">
               <img
-                src="src/assets/images/Experiencia 2.png"
+                src="/Experiencia 2.png"
                 alt="Atención de generación en generación"
               />
               <div className="text">
@@ -48,10 +48,7 @@ export default function History() {
 
           <div className="timeline-item left">
             <div className="timeline-content">
-              <img
-                src="src/assets/images/Experiencia.png"
-                alt="Precios y variedad"
-              />
+              <img src="/Experiencia.png" alt="Precios y variedad" />
               <div className="text">
                 <h3>Precios y Variedad</h3>
                 <p>
@@ -64,10 +61,7 @@ export default function History() {
 
           <div className="timeline-item right">
             <div className="timeline-content">
-              <img
-                src="src/assets/images/Experiencia 4.png"
-                alt="Seguimos creciendo"
-              />
+              <img src="/Experiencia 4.png" alt="Seguimos creciendo" />
               <div className="text">
                 <h3>Seguimos Creciendo</h3>
                 <p>

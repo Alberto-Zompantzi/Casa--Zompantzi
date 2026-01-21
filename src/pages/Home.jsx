@@ -10,7 +10,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       nextCat();
-    }, 5000); // Cambia cada 5 segundos
+    }, 5000);
     return () => clearInterval(interval);
   }, [activeCatIndex]);
 
@@ -34,7 +34,6 @@ export default function Home() {
       />
 
       <div className="home-wrapper">
-        {/* SECCIÓN 1: HERO */}
         <section className="main-hero">
           <div className="hero-overlay-dark">
             <div className="hero-main-content">
@@ -52,7 +51,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SECCIÓN 2: TRIBUTO */}
         <section className="history-section">
           <div className="history-header">
             <div className="history-titles">
@@ -73,19 +71,17 @@ export default function Home() {
                   manteniendo viva su esencia. Su ejemplo es la fuerza que nos
                   impulsa a seguir adelante.
                 </p>
-                {/* ... resto del texto ... */}
               </div>
             </div>
           </div>
           <div className="history-images-grid">
-            <img src="src/assets/images/Experiencia 3.jpg" alt="Historia 1" />
-            <img src="src/assets/images/Experiencia.png" alt="Historia 2" />
-            <img src="src/assets/images/Experiencia 2.png" alt="Historia 3" />
-            <img src="src/assets/images/Experiencia 4.png" alt="Historia 4" />
+            <img src="/Experiencia 3.jpg" alt="Historia 1" />
+            <img src="/Experiencia.png" alt="Historia 2" />
+            <img src="/Experiencia 2.png" alt="Historia 3" />
+            <img src="/Experiencia 4.png" alt="Historia 4" />
           </div>
         </section>
 
-        {/* SECCIÓN 3: SLIDER DE PRODUCTOS (Corregido) */}
         <section className="category-slider-section">
           <div className="slider-wrapper">
             <button className="nav-arrow left" onClick={prevCat}>
@@ -94,7 +90,7 @@ export default function Home() {
 
             <div className="slider-container-full">
               <img
-                key={categories[activeCatIndex].id} // La key ayuda a React a reiniciar la animación
+                key={categories[activeCatIndex].id}
                 src={categories[activeCatIndex].image}
                 alt={categories[activeCatIndex].title}
                 className="slider-img-full"

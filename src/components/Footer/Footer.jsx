@@ -6,11 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__logo">
         <Link to="/">
-          <img
-            src="/src/assets/images/logo.png"
-            alt="Logo de Casa Zompantzi"
-            className="logo"
-          />
+          <img src="/logo.png" alt="Logo de Casa Zompantzi" className="logo" />
         </Link>
       </div>
 

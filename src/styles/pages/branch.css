@@ -6,7 +6,7 @@
   color: var(--color-text-main);
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/src/assets/images/ladrillos-hero.avif") center / cover no-repeat;
+    url("/ladrillos-hero.avif") center / cover no-repeat;
 }
 
 .ubicacion h2 {
