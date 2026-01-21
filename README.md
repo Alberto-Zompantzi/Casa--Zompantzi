@@ -34,19 +34,10 @@ El proyecto está enfocado en:
 
 Este proyecto fue desarrollado utilizando tecnologías web modernas y ligeras:
 
-- **HTML5**  
-  Estructura semántica del sitio web
-
-- **CSS3**  
-  Responsive Design, Media Queries
-
-- **JavaScript (Vanilla)**
-
-- **GIT** Manejo de versiones
-
-  Header & Footers insertados de forma dinamica con JS al igual que el catálogo de productos.
-
-- **Cloudflare (anteriormente Netlify)**  
-  Plataforma de despliegue y hosting del sitio web.
+- **Frontend:** React.js 18 (Hooks, State Management)
+- **Bundler:** Vite 5 (Optimización de assets y HMR)
+- **Estilos:** CSS3 Moderno (Custom Properties, Grid Layout, Flexbox)
+- **SEO:** React Helmet y Vite Plugin Sitemap
+- **Cloudflare (anteriormente Netlify)** Plataforma de despliegue y hosting del sitio web.
 
 ---
