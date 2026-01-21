@@ -9,7 +9,12 @@ export default function Products() {
 
   return (
     <>
-      <Seo title="Productos | Casa Zompantzi" />
+      <Seo
+        title="Productos | Casa Zompantzi"
+        description="Conoce nuestros productos"
+        url="https://casazompantzi.pages.dev/productos"
+        image="https://casazompantzi.pages.dev/fabicon.png"
+      />
 
       <section className="products-section">
         {/* GRID DE CATEGORÍAS (Estilo Reyma) */}

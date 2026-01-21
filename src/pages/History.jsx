@@ -8,7 +8,7 @@ export default function History() {
         title="Historia | Casa Zompantzi"
         description="Conoce la historia y trayectoria de Casa Zompantzi."
         url="https://casazompantzi.pages.dev/historia"
-        image="https://casazompantzi.pages.dev/fabicon.svg"
+        image="https://casazompantzi.pages.dev/fabicon.png"
       />
 
       <section id="historia" className="historia">

@@ -31,6 +31,8 @@ export default function Home() {
       <Seo
         title="Casa Zompantzi | Plásticos y desechables de calidad"
         description="Empresa mexicana con más de 50 años ofreciendo productos plásticos y desechables."
+        url="https://casazompantzi.pages.dev/"
+        image="https://casazompantzi.pages.dev/fabicon.png"
       />
 
       <div className="home-wrapper">

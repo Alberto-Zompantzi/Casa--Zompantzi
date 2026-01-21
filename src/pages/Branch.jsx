@@ -8,7 +8,7 @@ export default function Branch() {
         title="Sucursal | Casa Zompantzi"
         description="Ubicación y contacto de nuestra sucursal."
         url="https://casazompantzi.pages.dev/sucursal"
-        image="https://casazompantzi.pages.dev/fabicon.svg"
+        image="https://casazompantzi.pages.dev/fabicon.png"
       />
 
       <section id="contacto" className="ubicacion">
