@@ -17,7 +17,6 @@ export default function Products() {
       />
 
       <section className="products-section">
-        {/* GRID DE CATEGORÍAS (Estilo Reyma) */}
         <div className="category-block">
           {categories.map((category) => (
             <div
@@ -26,13 +25,12 @@ export default function Products() {
               onClick={() => setSelectedCategory(category)}
             >
               <img src={category.image} alt={category.title} />
-              <h3>{category.id.toUpperCase()}</h3> {/* Muestra PP, EU, etc */}
+              <h3>{category.id.toUpperCase()}</h3>
               <button className="view-products-btn">Ver Más</button>
             </div>
           ))}
         </div>
 
-        {/* VENTANA REACTIVA (MODAL) */}
         {selectedCategory && (
           <div
             className="modal-overlay"

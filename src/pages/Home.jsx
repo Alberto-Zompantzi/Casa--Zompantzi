@@ -57,8 +57,8 @@ export default function Home() {
           <div className="history-header">
             <div className="history-titles">
               <h2>
-                Un Legado de Esfuerzo: Sr. Gregorio Zompantzi{" "}
-                <span className="tribute-years">(1952 — 2024)</span>
+                Un Legado de Esfuerzo:<br></br> Sr. Gregorio Zompantzi<br></br>
+                (1952 — 2024)
               </h2>
               <div className="history-tribute-body">
                 <p>
@@ -66,12 +66,14 @@ export default function Home() {
                   nuestro fundador, el Sr. Gregorio Zompantzi, quien dedicó su
                   vida entera a servir a esta región. Su vida fue un testimonio
                   de servicio hacia Teziutlán, atendiendo de corazón a cada
-                  cliente durante décadas. Junto con su padre,Camilo Zompantzi,
-                  fueron pioneros en el ramo en Teziutlán, Puebla y la región.
-                  Su trato humano trascendió generaciones, convirtiendo a cada
-                  cliente en parte de nuestra familia. Hoy, honramos su memoria
-                  manteniendo viva su esencia. Su ejemplo es la fuerza que nos
-                  impulsa a seguir adelante.
+                  cliente durante décadas.<br></br>
+                  <br></br> Junto con su padre,Camilo Zompantzi, fueron pioneros
+                  en el ramo de plásticos y desechables en Teziutlán, Puebla y
+                  la región. Su trato humano trascendió generaciones,
+                  convirtiendo a cada cliente en parte de nuestra familia.
+                  <br></br> <br />
+                  Hoy, honramos su memoria manteniendo viva su esencia. Su
+                  ejemplo es la fuerza que nos impulsa a seguir adelante.
                 </p>
               </div>
             </div>

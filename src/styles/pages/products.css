@@ -146,3 +146,9 @@
   cursor: pointer;
   width: 100%;
 }
+
+@media (max-width: 480px) {
+  .products-section {
+    padding-bottom: 40px;
+  }
+}

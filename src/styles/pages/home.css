@@ -37,7 +37,7 @@
 .hero-main-content p {
   color: var(--color-light);
   font-weight: 500;
-  font-size: clamp(0.5rem, 1.5vw, 2.5rem);
+  font-size: 1rem;
 }
 
 .hero-main-content h1 span {
@@ -62,7 +62,6 @@
   color: var(--color-light);
 }
 
-/* --- SECCIÓN 2: HISTORIA --- */
 .history-section {
   background: var(--color-dark);
   padding: 60px 8%;
@@ -90,7 +89,6 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* RECUADRO DE TEXTO ANIMADO */
 .history-tribute-body {
   background: rgba(255, 255, 255, 0.03); /* Un toque de luz tras el texto */
   padding: 30px;
@@ -108,8 +106,6 @@
   margin-bottom: 15px;
   padding-left: 10px;
 }
-
-/* --- ESTILO DE IMÁGENES TRIBUTO --- */
 
 .history-images-grid {
   display: grid;
@@ -133,8 +129,6 @@
     0 20px 40px rgba(0, 0, 0, 0.6),
     0 0 15px rgba(255, 179, 71, 0.05);
 }
-
-/* --- SECCIÓN 3: SLIDER (PANTALLA COMPLETA) --- */
 
 .category-slider-section {
   background: var(--color-light);
@@ -163,14 +157,17 @@
   display: block;
 }
 
-.slider-img-fade {
+.slider-container-full {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slider-img-full {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  object-position: center;
 }
 
 .slider-info-overlay {
@@ -238,7 +235,6 @@
   right: 30px;
 }
 
-/* --- RESPONSIVE --- */
 @media (max-width: 768px) {
   .history-section {
     height: auto;
@@ -254,14 +250,29 @@
   .history-images-grid img {
     height: 200px;
   }
+  .category-slider-section {
+    height: 60vh;
+    min-height: 400px;
+  }
+
+  .slider-info-overlay {
+    padding: 15% 8% 5% 8%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 0%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+  }
+
+  .slider-description {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
   .nav-arrow {
-    width: 45px;
-    height: 45px;
-  }
-  .nav-arrow.left {
-    left: 10px;
-  }
-  .nav-arrow.right {
-    right: 10px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.6);
   }
 }
