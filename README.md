@@ -20,24 +20,22 @@ El proyecto está enfocado en:
 
 ---
 
-## Características
+## Características Técnicas
 
-- Información sobre la empresa
-- Identidad de negocio tradicional
-- Sitio web rápido y accesible
-- Diseño adaptable a dispositivos móviles
-- Enlaces de contacto y redes sociales
+-- Sitio construido como **Single Page Application (SPA)** con React y React Router.
+-- Información estructurada en secciones (inicio, historia, productos, sucursal).
+-- Diseño responsive basado en CSS Grid y Flexbox.
+-- Sitio web rápido y accesible, optimizado para Core Web Vitals.
+-- Enlaces de contacto y redes sociales visibles en todo momento.
 
 ---
 
 ## Tecnologías utilizadas
 
-Este proyecto fue desarrollado utilizando tecnologías web modernas y ligeras:
-
-- **Frontend:** React.js 18 (Hooks, State Management)
-- **Bundler:** Vite 5 (Optimización de assets y HMR)
-- **Estilos:** CSS3 Moderno (Custom Properties, Grid Layout, Flexbox)
-- **SEO:** React Helmet y Vite Plugin Sitemap
-- **Cloudflare (anteriormente Netlify)** Plataforma de despliegue y hosting del sitio web.
+- **Frontend:** React.js 18 (componentes funcionales, Suspense/lazy loading).
+- **Ruteo:** React Router (páginas de inicio, productos, historia y sucursal).
+- **Estilos:** CSS3 moderno con variables, Grid Layout y Flexbox.
+- **SEO:** Metadatos por página, sitemap y robots.txt para indexación en buscadores.
+- **Despliegue:** Cloudflare Pages como plataforma de hosting estática con CI/CD.
 
 ---
